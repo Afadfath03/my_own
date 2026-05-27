@@ -1,6 +1,7 @@
 services:
   web:
     image: nginx:alpine
+    container_name: landing_page
     ports:
       - "8080:80"
     volumes:
